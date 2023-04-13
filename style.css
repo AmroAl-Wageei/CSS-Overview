@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* div {
+  background-color: red;
+  background-color: #00ff00;
+  background-color: rgba(0, 0, 0, 50%);
+  background-color: rgba(255, 255, 255, 0);
+
+  background-image: url("./images/Cohort.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-position: center center;
+  background-size: auto contain;
+  background-size: 500px 400px;
+} */
+
+/* div {
+  background-color: #ddd;
+  padding: 50px 100px;
+  margin: -20px;
+
+  padding: 30px;
+  width: 80%;
+  margin: 30px;
+  border-width: 10px;
+  border-color: blue red green black;
+  border-style: solid dashed dotted groove;
+  border: 5px solid yellow;
+  border-left: 20px solid green;
+  outline-offset: 10px;
+  outline: 3px solid blueviolet;
+} */
+
+span {
+  /* background-color: #ddd;
+  display: block;
+  padding: 10px;
+  margin: 20px; */
+
+  /* background-color: #ddd;
+  display: inline;
+  padding-left: 20px;
+  padding-right: 30px;
+  margin: 50px; */
+
+  /* background-color: #ddd;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  margin: 20px; */
+}
+
+/* ######## VISIBLE ######## */
+
+/* div {
+  background-color: red;
+  margin: 10px 0;
+}
+.first {
+  display: none;
+  visibility: hidden;
+} */
+
+/* ######## VISIBLE ######## */
+
+/* ######## Oveflow ######## */
+/* div {
+  width: 200px;
+  height: 200px;
+  background-color: #eee;
+  padding: 10px;
+  margin: 50px;
+  border-radius: 10px;
+  overflow: hidden;
+  overflow: visible;
+  overflow: scroll;
+  overflow: auto;
+  overflow-y: visible;
+  overflow-x: hidden;
+} */
+
+/* ######## Oveflow ######## */
+
+/* ######## Dimensions  ######## */
+div {
+  background-color: red;
+  padding: 15px;
+  display: inline-block;
+  width: 400px;
+  min-width: 400px;
+  max-width: 600px;
+  min-height: 50px;
+  max-height: 100px;
+  width: fit-content;
+}
+/* ######## Dimensions  ######## */
