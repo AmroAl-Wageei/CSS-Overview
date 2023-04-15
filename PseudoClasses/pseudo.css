@@ -1,0 +1,140 @@
+a:visited {
+  color: brown;
+}
+a:hover {
+  color: green;
+}
+.ch:checked + label {
+  color: red;
+}
+.ch:checked {
+  display: none;
+}
+/* :empty {
+  border: 2px solid red;
+  width: 50px;
+} */
+
+.text:focus {
+  color: coral;
+  border: 2px solid coral;
+  outline: none;
+}
+
+/* ################### Pseudo Element :: ################### */
+.onee span {
+  display: inline-block;
+  background-color: brown;
+  color: white;
+  font-size: 30px;
+  font-weight: 600px;
+}
+.twoo::first-letter {
+  display: inline-block;
+  background-color: brown;
+  color: white;
+  font-size: 30px;
+  font-weight: 600px;
+}
+.threee::first-line {
+  color: green;
+  font-weight: bold;
+}
+
+.fourr::selection {
+  background-color: black;
+  color: yellow;
+}
+
+.parent {
+  margin-bottom: 20px;
+  overflow: hidden;
+  counter-increment: member;
+}
+.parent .user {
+  background-color: #ededed;
+  padding: 15px;
+  width: 50px;
+  height: 60px;
+  float: left;
+  font-size: 50px;
+  text-align: center;
+}
+.parent .one {
+  background-color: #ededed;
+  padding: 10px;
+  width: 500px;
+  float: left;
+  margin-left: 50px;
+  position: relative;
+}
+.parent .one::after {
+  content: counter(member);
+  position: absolute;
+  background-color: rgb(63, 185, 154);
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  top: 35%;
+  right: -15px;
+  /* position: absolute;
+    width: 5px;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background-color: rgb(63, 185, 154); */
+}
+.parent .one::before {
+  /* content: "Amro";
+    color: red;
+    display: inline-block;
+    background-color: aqua; */
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  left: -55px;
+  top: 38%;
+  margin-top: -10px;
+  border-width: 20px;
+  border-color: transparent rgb(63, 185, 154) transparent transparent;
+  border-style: solid;
+  /* content: attr(data-text);
+  display: none; */
+}
+/* .parent .one:hover::before {
+    display: block;
+} */
+
+/* .one .pipeline {
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background-color: rgb(101, 171, 189);
+} */
+
+ul {
+  list-style: none;
+}
+ul li {
+  position: relative;
+  margin-right: 20px;
+  padding: 5px;
+}
+ul li::before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  margin-top: -10px;
+  border-width: 10px;
+  border-color: transparent rgb(63, 185, 154) transparent transparent;
+  border-style: solid;
+}
+
+/* ################### Pseudo Element :: ################### */
