@@ -1,0 +1,107 @@
+/* <!-- Selectors 1  --> */
+
+/*
+  CSS Selectors
+  - *
+  - Element => [p, div, h2]
+  - Element OtherElement => div p
+  - .class-name
+  - #id-name
+  - .parent .child
+  - .class-one.class-two
+  - .class-name div, .class-name p
+  - Element.class-name => p.class-name
+  - .parent > .child => Direct Child
+*/
+
+/* .parent .child {
+  color: red;
+}
+.parent > .child {
+  color: rgb(48, 95, 126);
+}
+.parent > h2 {
+  color: rgb(42, 104, 49);
+} */
+
+/* <!-- Selectors 1  --> */
+
+/* <!-- Selectors 2  --> */
+/*
+  CSS Selectors
+  - Element + Other Element => [div + p]
+  - Element ~ Other Elements => [p ~ div]
+  - [Attribute]
+  - Element[Attribute]
+  - [Attribute=Value]
+  - Element[Attribute=Value] => input[type="submit"]
+  - [Attribute~=Value] => Contains A Word
+  - [Attribute*=Value] => Contains A Atring
+  - [Attribute^=Value] => Start With A String
+*/
+/* <!-- Selectors 2  --> */
+
+/* <!-- Selectors 3 --> */
+
+/*
+  CSS Selectors
+  - :first-child
+  - :last-child
+  - :first-of-type
+  - :last-of-type
+  - :only-child
+*/
+/* <!-- Selectors 3  --> */
+
+/* <!-- Selectors 4  --> */
+/*
+  CSS Selectors
+  - :not(Selectors) ... p:not(.name) 
+  - :nth-child(n)   ... p:nth-child(2) p:nth-child(even) p:nth-child(odd)
+  - :nth-last-child(n)
+  - :nth-of-type(n)
+  - :nth-last-of-type(n)
+*/
+/* <!-- Selectors 4  --> */
+
+/* <!-- Selectors 5  --> */
+/*
+  CSS Selectors
+  - :root
+  - :checked
+  - :empty
+  - :disabled
+  - :required
+  - :focus
+  - ::selection
+  - ::placeholder
+*/
+/* <!-- Selectors 5  --> */
+
+input[type="checked"]:checked + label {
+  color: blue;
+}
+
+div:empty {
+  color: red;
+}
+
+input:disabled {
+  color: green;
+}
+input:required + span::before {
+  content: "*";
+  color: red;
+}
+input:focus {
+  border: 2px soild yellow;
+}
+
+div::selection {
+  background-color: red;
+  color: white;
+}
+
+.class::placeholder {
+  color: red;
+}
